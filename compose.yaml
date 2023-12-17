@@ -10,7 +10,6 @@ services:
       - example-laravel-network
     volumes:
       - db-storage:/var/lib/mysql
-      - ./configs/mariadb/init.sql:/data/application/init.sql
 
   webservice:
     container_name: example_laravel_webservice
