@@ -1,7 +1,7 @@
 # Laravel - Nginx docker
 
 ### Requirement
-1. Docker installed
+1. Docker and git installed
 
 <details>
     <summary>How to run</summary>
@@ -10,6 +10,10 @@
     ```zsh
     git clone --recursive https://github.com/dodyirawan85/laravel-docker.git
     ```
+3. Change directory
+   ```zsh
+   cd laravel-docker
+   ```
 2. Build base webserver
     ```zsh
     docker build -t base-laravel:latest base/.
